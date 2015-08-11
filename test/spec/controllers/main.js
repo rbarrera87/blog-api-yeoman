@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('todoApp'));
+  beforeEach(module('postApp'));
 
   var MainCtrl,
     scope;
@@ -18,6 +18,6 @@ describe('Controller: MainCtrl', function () {
   }));
 
   it('should have no items to start', function () {
-    expect(scope.todos.length).toBe(0);
+    expect(scope.posts.length).toBe(0);
   });
 });

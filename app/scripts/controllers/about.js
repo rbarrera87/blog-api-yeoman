@@ -2,10 +2,10 @@
 
 /**
  * @ngdoc function
- * @name todoApp.controller:AboutCtrl
+ * @name postApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the todoApp
+ * Controller of the postApp
  */
 angular.module('postApp')
   .controller('AboutCtrl', function ($scope) {
